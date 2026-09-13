@@ -1,0 +1,62 @@
+{
+  "title": "Сервис интеграции с Delta Design (sarus-plus-msa-delta-design-integration-app) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-msa-delta-design-integration-app",
+  "properties": {
+    "SP_SERVICE_USER": {
+      "description": "",
+      "default": ""
+    },
+    "SP_DELTA_DESIGN_INTEGRATION_PORT": {
+      "description": "Порт Сервиса интеграции с Delta Design",
+      "default": 8077
+    },
+    "SPRING_PROFILES_ACTIVE": {
+      "description": "Профиль работы приложения",
+      "default": "rel"
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "IP-адрес сервера лицензий Guardant",
+      "default": "127.0.0.1"
+    },
+    "DELTA_DESIGN_API_BASE_URL": {
+      "description": "Адрес сервера DELTA DESIGN",
+      "default": ""
+    },
+    "MSA_OCCURRENCES_URI": {
+      "description": "URI-адрес Сервиса для работы с объектами структуры",
+      "default": "http://localhost:8083"
+    },
+    "MSA_DATASET_URI": {
+      "description": "URI-адрес Сервиса для работы с наборами данных",
+      "default": "http://localhost:8092"
+    },
+    "MSA_FILE-STORAGE_URI": {
+      "description": "URI-адрес Сервиса управления файлами",
+      "default": "http://localhost:8085"
+    },
+    "MSA_PLM-OBJECT_URI": {
+      "description": "URI-адрес Сервиса для работы с объектами PLM",
+      "default": "http://localhost:8081"
+    },
+    "MSA_RELATION_URI": {
+      "description": "URI-адрес Сервиса для работы с отношениями",
+      "default": "http://localhost:8090"
+    },
+    "MSA_SEARCH_URI": {
+      "description": "URI-адрес Сервиса для поиска объектов",
+      "default": "http://localhost:8084"
+    },
+    "REDIS_EXPIRE_TIME": {
+      "description": "Время жизни хранения информации в Redis",
+      "default": 86400
+    },
+    "SPRING_DATA_REDIS_HOST": {
+      "description": "Хост Redis",
+      "default": "localhost"
+    },
+    "SPRING_DATA_REDIS_PORT": {
+      "description": "Порт Redis",
+      "default": 6379
+    }
+  }
+}

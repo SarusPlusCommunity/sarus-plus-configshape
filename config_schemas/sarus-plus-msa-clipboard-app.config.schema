@@ -1,0 +1,42 @@
+{
+  "title": "Сервис буфера обмена (sarus-plus-msa-clipboard-app) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-msa-clipboard-app",
+  "properties": {
+    "SP_SERVICE_USER": {
+      "description": "",
+      "default": ""
+    },
+    "SP_CLIPBOARD_PORT": {
+      "description": "Порт Сервиса буфера обмена",
+      "default": 8091
+    },
+    "SPRING_PROFILES_ACTIVE": {
+      "description": "Профиль работы приложения",
+      "default": "rel"
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "IP-адрес сервера лицензий Guardant",
+      "default": "127.0.0.1"
+    },
+    "MSA_DICTIONARY_CACHE_URI": {
+      "description": "URI-адрес Кэш-сервиса получения справочников",
+      "default": "http://localhost:8082"
+    },
+    "SARUS_API_HOST": {
+      "description": "URI-адрес API Техплатформы «САРУС»",
+      "default": "http://127.0.0.1:35000/v1"
+    },
+    "DATABASE_URI": {
+      "description": "Адрес БД",
+      "default": "jdbc:postgresql://localhost:5432/clipboarddb"
+    },
+    "DATABASE_USERNAME": {
+      "description": "Логин для БД",
+      "default": "postgres"
+    },
+    "DATABASE_PASSWORD": {
+      "description": "Пароль для БД",
+      "default": "postgres"
+    }
+  }
+}

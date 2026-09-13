@@ -1,0 +1,26 @@
+{
+  "title": "minio configuration",
+  "documentation": null,
+  "properties": {
+    "MINIO_ROOT_USER": {
+      "description": "",
+      "default": ""
+    },
+    "MINIO_ROOT_PASSWORD": {
+      "description": "",
+      "default": ""
+    },
+    "MINIO_CONSOLE_ADDRESS": {
+      "description": "",
+      "default": ""
+    },
+    "MINIO_ADDRESS": {
+      "description": "",
+      "default": ""
+    },
+    "MINIO_VOLUMES": {
+      "description": "",
+      "default": ""
+    }
+  }
+}

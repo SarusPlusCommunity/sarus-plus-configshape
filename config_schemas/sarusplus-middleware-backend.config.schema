@@ -1,0 +1,78 @@
+{
+  "title": "Промежуточный программный слой (sarus-plus-middleware-backend) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-middleware-backend",
+  "properties": {
+    "CP_PLM_PORT": {
+      "description": "Порт сервиса ролей",
+      "default": 3020
+    },
+    "CP_PLMDATA_PORT": {
+      "description": "Порт сервиса локализации",
+      "default": 3010
+    },
+    "NODE_VERSION": {
+      "description": "",
+      "default": ""
+    },
+    "YARN_VERSION": {
+      "description": "",
+      "default": ""
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "",
+      "default": ""
+    },
+    "SARUS_API_HOST": {
+      "description": "Хост Техплатформы «САРУС»",
+      "default": "localhost"
+    },
+    "SARUS_API_PORT": {
+      "description": "API порт Техплатформы «САРУС»",
+      "default": 35000
+    },
+    "ADMIN_USER_USER": {
+      "description": "Пользователь «Администратор Техплатформы «САРУС»",
+      "default": "Администратор"
+    },
+    "ADMIN_USER_PASSWORD": {
+      "description": "Хэш пароля пользователя «Администратор Техплатформы «САРУС»",
+      "default": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "SARUS_SYSTEM_USER": {
+      "description": "",
+      "default": ""
+    },
+    "REDIS_SERVER_URI": {
+      "description": "URI-адрес Redis",
+      "default": "redis://127.0.0.1:6379"
+    },
+    "REDIS_JWT_SECRET": {
+      "description": "Секрет для JWT токена",
+      "default": "sarus-plus-is-the-best-plm-in-the-whole-world!"
+    },
+    "SARUS_DB_HOST": {
+      "description": "IP-адрес СУБД",
+      "default": "127.0.0.1"
+    },
+    "SARUS_DB_NAME": {
+      "description": "Имя БД Техплатформы «САРУС»",
+      "default": "RPLMCAPP"
+    },
+    "SARUS_DB_PORT": {
+      "description": "Порт СУБД",
+      "default": 5432
+    },
+    "SARUS_PLUS_DB_NAME": {
+      "description": "Имя БД локализации САРУС+",
+      "default": "SarusPlusDB"
+    },
+    "SARUS_DB_USER": {
+      "description": "Имя пользователя БД",
+      "default": "postgres"
+    },
+    "SARUS_DB_PASS": {
+      "description": "Пароль пользователя БД",
+      "default": "postgres"
+    }
+  }
+}

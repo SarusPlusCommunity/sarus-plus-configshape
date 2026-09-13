@@ -1,0 +1,34 @@
+{
+  "title": "Сервис управления файлами (sarus-plus-msa-file-storage-app) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-msa-file-storage-app",
+  "properties": {
+    "SP_SERVICE_USER": {
+      "description": "",
+      "default": ""
+    },
+    "SP_FILE_STORAGE_PORT": {
+      "description": "Порт работы приложения",
+      "default": 8085
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "IP-адрес сервера лицензий Guardant",
+      "default": "127.0.0.1"
+    },
+    "MINIO_ACCESS_KEY": {
+      "description": "Имя пользователя Объектного хранилища S3",
+      "default": "sarus-plus-minio"
+    },
+    "MINIO_ENDPOINT": {
+      "description": "Адрес S3 хранилища",
+      "default": "localhost:9000"
+    },
+    "MINIO_FILE_STORAGE_BUCKET": {
+      "description": "Бакет Объектного хранилища S3",
+      "default": "sarus-plus"
+    },
+    "MINIO_SECRET_KEY": {
+      "description": "Пароль пользователя Объектного хранилища S3",
+      "default": "sarus-plus-minio"
+    }
+  }
+}

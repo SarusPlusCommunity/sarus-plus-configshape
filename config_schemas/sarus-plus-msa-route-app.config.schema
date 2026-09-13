@@ -1,0 +1,34 @@
+{
+  "title": "Сервис управления технологическими маршрутами производства (sarus-plus-msa-route-app) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-msa-route-app",
+  "properties": {
+    "SP_SERVICE_USER": {
+      "description": "",
+      "default": ""
+    },
+    "SP_ROUTE_PORT": {
+      "description": "Порт Сервиса управления технологическими маршрутами производства",
+      "default": 8094
+    },
+    "SPRING_PROFILES_ACTIVE": {
+      "description": "Профиль работы приложения",
+      "default": "rel"
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "IP-адрес сервера лицензий Guardant",
+      "default": "127.0.0.1"
+    },
+    "MSA_DICTIONARY_CACHE_URI": {
+      "description": "URI-адрес Кэш-сервиса получения справочников",
+      "default": "http://localhost:8082"
+    },
+    "MSA_FILE_STORAGE_URI": {
+      "description": "URI-адрес Сервиса управления файлами",
+      "default": "http://localhost:8085"
+    },
+    "SARUS_API_HOST": {
+      "description": "URI-адрес API Техплатформы «САРУС»",
+      "default": "http://127.0.0.1:35000/v1"
+    }
+  }
+}

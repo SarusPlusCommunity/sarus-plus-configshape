@@ -1,0 +1,34 @@
+{
+  "title": "Сервис настроек интерфейса пользователя (sarus-plus-msa-interface-settings-app) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-msa-interface-settings-app",
+  "properties": {
+    "SP_SERVICE_USER": {
+      "description": "",
+      "default": ""
+    },
+    "SP_INTERFACE_SETTINGS_PORT": {
+      "description": "Порт Сервиса настроек интерфейса пользователя",
+      "default": 8101
+    },
+    "SPRING_PROFILES_ACTIVE": {
+      "description": "Профиль работы приложения",
+      "default": "rel"
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "IP-адрес сервера лицензий Guardant",
+      "default": "127.0.0.1"
+    },
+    "DATABASE_URI": {
+      "description": "URI-адрес СУБД",
+      "default": "jdbc:postgresql://127.0.0.1:5432/SarusPlusInterfaceSettings"
+    },
+    "DATABASE_USERNAME": {
+      "description": "Имя пользователя БД",
+      "default": "postgres"
+    },
+    "DATABASE_PASSWORD": {
+      "description": "Пароль пользователя БД",
+      "default": "postgres"
+    }
+  }
+}

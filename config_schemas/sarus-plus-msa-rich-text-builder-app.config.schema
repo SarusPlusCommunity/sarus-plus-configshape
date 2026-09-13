@@ -1,0 +1,34 @@
+{
+  "title": "Текстовый редактор (sarus-plus-msa-rich-text-builder-app) — конфигурация",
+  "documentation": "https://docs.sarusplus.ru/saruslpus_plm/system-administration/system-config/config-files/sarus-plus-msa-rich-text-builder-app",
+  "properties": {
+    "SP_SERVICE_USER": {
+      "description": "",
+      "default": ""
+    },
+    "SP_RICH_TEXT_BUILDER_PORT": {
+      "description": "Порт Текстового редактора",
+      "default": 8087
+    },
+    "SPRING_PROFILES_ACTIVE": {
+      "description": "Профиль работы приложения",
+      "default": "rel"
+    },
+    "GUARDANT_SERVER_IP": {
+      "description": "IP-адрес сервера лицензий Guardant",
+      "default": "127.0.0.1"
+    },
+    "DATABASE_URL": {
+      "description": "URI-адрес СУБД",
+      "default": "jdbc:postgresql://localhost:5432/textdb"
+    },
+    "DATABASE_USERNAME": {
+      "description": "Имя пользователя БД",
+      "default": "postgres"
+    },
+    "DATABASE_PASSWORD": {
+      "description": "Пароль пользователя БД",
+      "default": "postgres"
+    }
+  }
+}
