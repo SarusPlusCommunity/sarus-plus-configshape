@@ -105,7 +105,7 @@ Place the JAR in a convenient directory. To validate known configurations, copy
 JAR. Keep the original configuration filenames so they match their schemas.
 For example, your working directory can contain:
 
-Go to Release section to get `sarus-plus-configshape_#_#_#.jar` and `config_schemas.zip`
+Go to [Releases](https://github.com/SarusPlusCommunity/sarus-plus-configshape/releases) section to get `sarus-plus-configshape_#_#_#.jar` and `config_schemas.zip`
 
 ```text
 sarus-plus-configshape.jar
