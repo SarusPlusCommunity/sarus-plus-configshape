@@ -12,6 +12,8 @@ and default values. Validation checks schema structure and allowed parameter
 names. It does not check value types, formats, or ranges, require every parameter
 to be present, or insert default values into configuration files.
 
+<img width="902" height="435" alt="image" src="https://github.com/user-attachments/assets/f9b51ae1-4e65-4725-8576-77f14f5e389f" />
+
 For implementation details and known limitations, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Features
@@ -95,13 +97,15 @@ do not update an existing schema.
 
 ### Run sarus-plus-configshape
 
-Use the ready-to-run `sarus-plus-configshape.jar` with Java 17 or later.
+Use the ready-to-run `sarus-plus-configshape_#_#_#.jar` with Java 17 or later.
 You do not need Maven or the project source code to run it.
 
 Place the JAR in a convenient directory. To validate known configurations, copy
 [config_schemas](config_schemas/) there as well, schemas are not bundled in the
 JAR. Keep the original configuration filenames so they match their schemas.
 For example, your working directory can contain:
+
+Go to Release section to get `sarus-plus-configshape_#_#_#.jar` and `config_schemas.zip`
 
 ```text
 sarus-plus-configshape.jar
@@ -138,7 +142,7 @@ The application looks for `config_schemas/service.config.schema`:
 
 A newly generated schema contains descriptions from comments and empty defaults.
 A `CREATED` result means a schema was generated from the current parameter names,
-those names have not been checked against an independently maintained schema.
+those names have not been checked against an independently maintained schema. 
 
 #### Validate Using Existing Schemas Only
 
